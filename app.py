@@ -5,6 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
+app.secret_key = "secret key"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:superpaloman+12@localhost/contactsdb'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
