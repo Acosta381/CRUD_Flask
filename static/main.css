@@ -1,0 +1,41 @@
+body {
+    background: #1e1e1e
+}
+
+/* Flash Message */
+.alert {
+  background-color: #28a745; /* green */
+  color: white;               /* text color */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* Padding between each contact */
+.contact-card {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+}
+
+/* Forms texts */
+.contact-fullname {
+  color: #1abc9c;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.contact-email {
+  color: #f39c12;
+  font-family: "Courier New", monospace;
+}
+
+.contact-phone {
+  color: #3498db;
+  font-family: Verdana, sans-serif;
+}
+
+
